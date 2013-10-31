@@ -20,6 +20,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script src="js/jquery.flexslider.js"></script>
 
+
 		<script type="text/javascript" charset="utf-8">
 			$(window).load(function() {
 			  $('.flexslider').flexslider({
@@ -27,7 +28,7 @@
 			  });
 			});
 		</script>
-		
+
 	</head>
 	<body>
 		<div id="container" class="container_12">
@@ -41,7 +42,7 @@
 						<nav>
 							<ul>
 								<li>
-									<a class="mainmenu selected" href="places.html">Places</a>
+									<a class="mainmenu" href="places.html">Places</a>
 								</li>
 								<li>
 									<a class="mainmenu" href="people.html">People</a>
@@ -50,7 +51,7 @@
 									<a class="mainmenu" href="wildlife.html">Wildlife</a>
 								</li>
 								<li>
-									<a class="mainmenu last" href="contact.html">Contact Us</a>
+									<a class="mainmenu last selected" href="contact.html">Contact Us</a>
 								</li>
 								<div class="clear"></div>
 							</ul>
@@ -97,44 +98,16 @@
 			<div class="clear"></div>
 
 			<div id="content" class="grid_10">
+				
+				<div class="contact grid_6 push_2">
 
-				<div id="photoscroll" class="flexslider">
-
-					<ul class="slides">
-					    <li>
-					      <img src="images/bacuit-bay.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/banaue-mountaintop.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/batanes-lighthouse.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/chocolate-hills.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/coron-bangka.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/harbor-manila.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/kawasan-falls.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/lightning-manilacity.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/mayon-volcano.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/taal-crater.jpg" />
-					    </li>
-					    <li>
-					      <img src="images/boracay-sailing.jpg" />
-					    </li>
-				 	</ul>
+					<form  action="" method="POST" enctype="multipart/form-data">
+					    <input type="hidden" name="action" value="submit"/> Your name:<br />
+					    <input name="name" type="text" value="" size="30"/> <br /> Your email:<br />
+					    <input name="email" type="email" value="" size="30"/> <br /> Your message:<br />
+					    <textarea name="message" rows="7" cols="32"> </textarea> <br />
+					    <input type="submit" value="Send email"/>
+					</form> 
 
 				</div>
 				

@@ -15,6 +15,19 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+			  $('.flexslider').flexslider({
+			    animation: "slide"
+			  });
+			});
+		</script>
+
 	</head>
 	<body>
 		<div id="container" class="container_12">
@@ -34,7 +47,10 @@
 									<a class="mainmenu selected" href="people.html">People</a>
 								</li>
 								<li>
-									<a class="mainmenu last" href="wildlife.html">Wildlife</a>
+									<a class="mainmenu" href="wildlife.html">Wildlife</a>
+								</li>
+								<li>
+									<a class="mainmenu last" href="contact.html">Contact Us</a>
 								</li>
 								<div class="clear"></div>
 							</ul>
@@ -83,33 +99,49 @@
 			<div id="content" class="grid_10">
 				
 
-				<div id="photoscroll" class="grid_10">
+				<div id="photoscroll" class="flexslider">
 
-					<a href="#" class="hide-text firstpeople"><img src="images/festival-atiatihan.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/girl-smile.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/kid-farmer.jpg" class="small"></a>
-					
-					<a href="#" class="hide-text"><img src="images/kids-smile.jpg" class="small"></a>
-
-					<a href="#" class="hide-text middle"><img src="images/kids-beach.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/Blaanwoman-cooking.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/festival-sinulog.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/ricefields-aerial.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/girl-closeup.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/woman-carrying.jpg" class="small"></a>
-
-					<a href="#" class="hide-text firstpeople"><img src="images/festival-dagyang.jpg" class="small"></a>
+					<ul class="slides">
+					    <li>
+					      <img src="images/festival-atiatihan.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/girl-smile.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/kid-farmer.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/kids-smile.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/kids-beach.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/Blaanwoman-cooking.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/festival-sinulog.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/ricefields-aerial.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/girl-closeup.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/woman-carrying.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/festival-dagyang.jpg" />
+					    </li>
+				 	</ul>
 
 				</div>
 				
+
 			</div><!-- #content -->
+
 
 			<div class="clear"></div>
 

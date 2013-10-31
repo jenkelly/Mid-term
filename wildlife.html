@@ -15,6 +15,20 @@
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+
+
+		<script type="text/javascript" charset="utf-8">
+			$(window).load(function() {
+			  $('.flexslider').flexslider({
+			    animation: "slide"
+			  });
+			});
+		</script>
+		
 	</head>
 	<body>
 		<div id="container" class="container_12">
@@ -34,7 +48,10 @@
 									<a class="mainmenu" href="people.html">People</a>
 								</li>
 								<li>
-									<a class="mainmenu last selected" href="wildlife.html">Wildlife</a>
+									<a class="mainmenu selected" href="wildlife.html">Wildlife</a>
+								</li>
+								<li>
+									<a class="mainmenu last" href="contact.html">Contact Us</a>
 								</li>
 								<div class="clear"></div>
 							</ul>
@@ -81,38 +98,44 @@
 			<div class="clear"></div>
 
 			<div id="content" class="grid_10">
-				
 
-				<div id="photoscroll" class="grid_10">
+				<div id="photoscroll" class="flexslider">
 
-					<iframe src="http://player.vimeo.com/video/31662514" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="first"></iframe>
-
-					<a href="#" class="hide-text last"><img src="images/anemone-shrimp.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/chromodoris-annae.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/coral-romblon.jpg" class="small"></a>
-					
-					<a href="#" class="hide-text"><img src="images/monitor-lizard.jpg" class="small"></a>
-
-					<a href="#" class="hide-text middle"><img src="images/tarsier.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/nembrotha-kubrayana.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/neopetrolisthes-maculatus.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/monkey.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/turtle.jpg" class="small"></a>
-
-					<a href="#" class="hide-text last"><img src="images/whale-shark.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/white-peacock.jpg" class="small"></a>
-
-					<a href="#" class="hide-text"><img src="images/monkey-yawning.jpg" class="small"></a>
-
-
-
+					<ul class="slides">
+					    <li>
+					      <img src="images/anemone-shrimp.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/chromodoris-annae.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/coral-romblon.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/monitor-lizard.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/tarsier.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/nembrotha-kubrayana.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/neopetrolisthes-maculatus.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/monkey.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/turtle.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/whale-shark.jpg" />
+					    </li>
+					    <li>
+					      <img src="images/white-peacock.jpg" />
+					    </li>
+				 	</ul>
 
 				</div>
 				

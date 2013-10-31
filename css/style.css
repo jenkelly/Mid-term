@@ -119,6 +119,7 @@ nav ul li a.mainmenu {
      border-top: 1px dotted white;     
      padding-top: 5px;
      padding-bottom: 5px;
+     padding-left: 10px;
 }
 
 nav ul li a.last {
@@ -141,7 +142,7 @@ nav ul li a.selected {
 footer.sidebar {
      background-color: black;
      width: 100%;
-     margin-top: 200px;
+     margin-top: 180px;
 }
 
 /* Copyright */
@@ -192,69 +193,29 @@ span.stats {
 /* PLACES IMAGES: PLACES, PEOPLE, WILDLIFE                   
 /*******************************************/
 
-#photoscroll .grid_10 {
-     margin: 0px;
-     padding: 0px;
-}
-
-#photoscroll a {
-     display: block;
-     float: left;
-     width: 33%;
-     height:157px;
-     overflow:hidden;
+#photoscroll {
+     margin: 0px 0px 0px 0px;
+     padding: 60px 0px 0px 0px;
 }
 
 #photoscroll img {
      max-width: 100%;
 }
 
-#photoscroll iframe {
-     display:block;
-     float:left;
-     width:66%;
-     overflow:hidden;
-}
+/******************************************
+/* CONTACT                   
+/*******************************************/
 
-#photoscroll a.first, #photoscroll iframe.first {
-     display: block;
-     float: left;
-     width: 100%;
-     height:540px;
-     overflow:hidden;
-}
-
-#photoscroll a.firstpeople {
-     display: block;
-     float: left;
-     width: 100%;
-     height:500px;
-     overflow:hidden;
-     padding-right: 10px;
-}
-
-#photoscroll a.middle {
-     display: block;
-     float: right;
-     width: 67%;
-     height:314px;
-     overflow:hidden;
-     padding-right: 10px
-}
-
-#photoscroll a.last {
-     display: block;
-     float: left;
-     width: 66%;
-     height:314px;
-     overflow:hidden;
-}
-
-#photoscroll a:hover {
+.contact {
+     color: white;
+     font-size: 18px;
+     line-height: 2.0;
+     font-family:'Raleway', sans-serif, Helvetica, Arial;
+     padding-top: 145px;
 }
 
 /*----------------------------------------------------------------------------- 
-=04 SOCIAL MEDIA  
+/* SOCIAL MEDIA  
 -----------------------------------------------------------------------------*/
 
 #social-media {
